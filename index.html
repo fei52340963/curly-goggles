@@ -1,46 +1,46 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
-<head>
+
+<lang="zh-CN">
+<<head>>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>身份证号AI解码器</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <title>身份证号AI解码器</title><title>身份证号AI解码器</title>
+    <script src="https://cdn.tailwindcss.com"</script><script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet"><link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
     
-    <!-- 配置Tailwind自定义颜色和字体 -->
-    <script>
+    
+    <脚本>
         tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        primary: '#3B82F6',
-                        secondary: '#10B981',
-                        neutral: '#64748B',
-                        light: '#F1F5F9',
-                        dark: '#1E293B'
-                    },
-                    fontFamily: {
-                        sans: ['Inter', 'system-ui', 'sans-serif'],
-                    },
+            主题: {
+                扩展: {
+                    颜色：{
+                        主要：'#3B82F6'
+                        次要：'#10B981'
+                        中性: ''#64748B'',
+                        光：'#F1F5F9'
+                        暗色：'#1E293B'
+                    }
+                    字体族: {
+                        字体: ['Inter', 'system-ui', 'sans-serif']
+                    }
                 }
             }
         }
     </script>
     
     <style type="text/tailwindcss">
-        @layer utilities {
-            .content-auto {
-                content-visibility: auto;
+        @层 工具 {
+            .内容自动 {
+                内容可见性：自动；
             }
             .card-shadow {
                 box-shadow: 0 10px 25px -5px rgba(59, 130, 246, 0.1), 0 8px 10px -6px rgba(59, 130, 246, 0.1);
             }
-            .input-focus {
+            输入焦点 {
                 @apply focus:ring-2 focus:ring-primary/50 focus:border-primary focus:outline-none;
             }
         }
-    </style>
-</head>
+    
+</>
 <body class="bg-gradient-to-br from-light to-blue-50 min-h-screen font-sans text-dark">
     <div class="container mx-auto px-4 py-12 max-w-4xl">
         <!-- 页面标题 -->
@@ -57,12 +57,12 @@
         <!-- 主内容区 -->
         <main class="bg-white rounded-2xl card-shadow p-6 md:p-8">
             <!-- 输入区域 -->
-            <div class="mb-8">
+            
                 <label for="idCard" class="block text-sm font-medium text-neutral mb-2">
                     请输入18位身份证号码
                 </label>
-                <div class="flex flex-col sm:flex-row gap-4">
-                    <input 
+                
+                    <输入
                         type="text" 
                         id="idCard" 
                         placeholder="例如：110101199001011234" 
